@@ -18,6 +18,7 @@ let addTask = document.querySelector('#addTask');
       
     
       taskList.appendChild(li).appendChild(button);
+      todoInput.value = '';
       
    
       li.addEventListener("click", function (event) {
